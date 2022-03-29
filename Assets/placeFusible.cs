@@ -30,6 +30,8 @@ public class placeFusible : MonoBehaviour
             rb.constraints = RigidbodyConstraints.FreezePosition;
             rb.constraints = RigidbodyConstraints.FreezeRotation;
             rb.useGravity = false;
+            collision.enabled = false;
+            gameObject.GetComponent<CapsuleCollider>().enabled = false;
         }
     }
 }
