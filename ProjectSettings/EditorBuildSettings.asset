@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/PolygonStarter/Scenes/Demo.unity
+    path: Assets/AssetsFromStore/PolygonStarter/Scenes/Demo.unity
     guid: 5215016c20f88ea498985ac3e0ab4f9d
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
