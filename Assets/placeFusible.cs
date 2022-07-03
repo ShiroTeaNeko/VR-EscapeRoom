@@ -6,6 +6,7 @@ public class placeFusible : MonoBehaviour
 {
     Rigidbody rb;
     UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable grab;
+    public fusibleCounter fusibleCounterScript;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class placeFusible : MonoBehaviour
             rb.useGravity = false;
             collision.enabled = false;
             gameObject.GetComponent<CapsuleCollider>().enabled = false;
+            fusibleCounterScript.count += 1;
         }
     }
 }
